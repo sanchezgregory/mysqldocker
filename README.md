@@ -1,6 +1,6 @@
 # Docker para Mysql 
 
-## Clona el repositorio: ` git clone https://  mysqlDB `
+## Clona el repositorio: ` git@github.com:sanchezgregory/mysqldocker.git  mysqlDB `
 
 ### Los entornos locales se comunicarán a este contenedor, y todas las BD estarán  centralizadas aquí. 
 
