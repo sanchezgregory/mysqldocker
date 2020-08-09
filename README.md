@@ -1,7 +1,7 @@
 # Docker para Mysql 
 
-## Clona el repositorio: ` git@github.com:sanchezgregory/mysqldocker.git  mysqlDB `
-
+##### Clona el repositorio: `git clone git@github.com:sanchezgregory/mysqldocker.git  mysqlDB `
+##### Clona el repositorio de las apps: `git clone git@github.com:sanchezgregory/dockerphpnginx.git app`
 ### Los entornos locales se comunicarán a este contenedor, y todas las BD estarán  centralizadas aquí. 
 
 #### Dentro del directorio: `cd mysqlDB && docker-compose up --build`
