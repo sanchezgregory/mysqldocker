@@ -6,6 +6,8 @@
 
 #### Dentro del directorio: `cd mysqlDB && docker-compose up --build`
 
+#### Debes crear la red del docker: `docker network create my-network`
+
 ##### *Solo si es la primera vez que levanta este entorno o si el usuario root deja de tener acceso de superusuario al servidor de Mysql **solo se ejecuta la primera vez que se construye el docker, esto creará un usuario name=store password=store  con privilegios de root**
 
 #### ` docker exec -it mysqldb bash  /etc/user.sh `
