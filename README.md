@@ -18,3 +18,14 @@
 #### Luego, debe entrar con su cliente de mysql favorito e ingresar con las credenciales
 
 ##### **Host** = 127.0.0.1 **Puerto** = 3000  **User** = root  **Password** = root
+
+===================================================================================
+
+#### Tip: para hacer una copia de mysql de tu entorno local actual, y llevarlo al nuevo.
+
+##### `mysql --user=root --password=root` 
+###### Una vez dentro de mysql, ejecutar `show databes;`
+###### Fijarse del nombre que tiene la BD a la cual se le realizará el dump
+###### salir de mysql con `exit`
+###### ejecutar ahora: `mysqldump --user=root --password=root bdToBackup > /var/lib/mysql/bdToRestore.sql`
+###### Dirigirse a la carpeta de su antiguo proyecto y entrar en data/db/mysql/ ahí verás el dump creado "bdToRestore.sql"
